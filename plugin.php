@@ -17,7 +17,7 @@
  * @package ph_PLUGIN-PACKAGE
  */
 
-namespace ph_PLUGIN_NAMESPACE;
+namespace rank_math_german_power_words;
 
 
 /** Prevent direct access */

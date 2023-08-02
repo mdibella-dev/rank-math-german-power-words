@@ -28,10 +28,10 @@ This plugin adds german power words to the SEO tool Rank Math.
 
 ### Previous changes
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/plugin-template/blob/main/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/mdibella-dev/rank-math-german-power-words/blob/main/CHANGELOG.md).
 
 <br>
 
 ## License
 
-This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/plugin-template/blob/main/LICENSE.md) for further details.
+This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/rank-math-german-power-words/blob/main/LICENSE.md) for further details.

@@ -13,11 +13,11 @@ This plugin adds german power words to the SEO tool Rank Math.
 
 ### Requires at least
 
-* WordPress ph_WORDPRESS-MINIMUM-VERSION
+* WordPress 6
 
 ### Tested up to
 
-* WordPress ph_WORDPRESS-VERSION
+* WordPress 6.2.2
 
 <br>
 

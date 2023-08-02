@@ -1,5 +1,5 @@
-# ph_PLUGIN-TITLE
-ph_PLUGIN-DESCRIPTION
+# Rank Math - German Power Words
+This plugin adds german power words to the SEO tool Rank Math.
 
 <br>
 

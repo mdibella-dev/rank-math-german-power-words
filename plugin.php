@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name:         ph_PLUGIN-TITLE
- * Plugin URI:          ph_PLUGIN-URI
- * Description:         ph_PLUGIN-DESCRIPTION.
+ * Plugin Name:         Rank Math &mdash; German Power Words
+ * Plugin URI:          https://github.com/mdibella-dev/rank-math-german-power-words
+ * Description:         This plugin adds german power words to the SEO tool Rank Math.
  * Author:              Marco Di Bella
  * Author URI:          https://www.marcodibella.de
  * License:             MIT License
  * Requires at least:   ph_WORDPRESS-MINIMUM-VERSION
  * Tested up to:        ph_WORDPRESS-VERSION
  * Requires PHP:        ph_PHP-VERSION
- * Version:             ph_PLUGIN-SEMANTIC-VERSION
+ * Version:             1.0.0
  * Text Domain:         rank-math-gpw
  * Domain Path:         /languages
  *
@@ -28,7 +28,7 @@ defined( 'ABSPATH' ) or exit;
 
 /** Variables and definitions */
 
-define( __NAMESPACE__ . '\PLUGIN_VERSION', 'ph_PLUGIN-SEMANTIC-VERSION' );
+define( __NAMESPACE__ . '\PLUGIN_VERSION', '1.0.0' );
 define( __NAMESPACE__ . '\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( __NAMESPACE__ . '\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

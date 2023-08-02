@@ -1,11 +1,11 @@
 {
-    "name": "ph_PLUGIN-TITLE",
+    "name": "Rank Math - German Power Words",
     "version": "1.0.0",
     "description": "Development Scripts",
     "config" : {
         "SASS_SRC": "./assets/src/css",
         "SASS_BLD": "./assets/build/css",
-        "PLUGIN_NAME": ""
+        "PLUGIN_NAME": "rank-math-german-power-words"
     },
     "scripts": {
         "sass:front": "sass --style=compressed --no-source-map $npm_package_config_SASS_SRC/frontend.scss $npm_package_config_SASS_BLD/frontend.min.css",

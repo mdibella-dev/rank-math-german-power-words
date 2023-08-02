@@ -10,11 +10,11 @@
  * Tested up to:        ph_WORDPRESS-VERSION
  * Requires PHP:        ph_PHP-VERSION
  * Version:             ph_PLUGIN-SEMANTIC-VERSION
- * Text Domain:         ph_PLUGIN-TEXTDOMAIN
+ * Text Domain:         rank-math-gpw
  * Domain Path:         /languages
  *
  * @author  Marco Di Bella
- * @package ph_PLUGIN-PACKAGE
+ * @package rank-math-german-power-words
  */
 
 namespace rank_math_german_power_words;

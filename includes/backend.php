@@ -3,7 +3,7 @@
  * Functions to handle the backend.
  *
  * @author  Marco Di Bella
- * @package ph_PLUGIN-PACKAGE
+ * @package rank-math-german-power-words
  */
 
 namespace rank_math_german_power_words;

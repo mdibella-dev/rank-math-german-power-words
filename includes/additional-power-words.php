@@ -15,11 +15,14 @@ defined( 'ABSPATH' ) or exit;
 
 
 
+// https://rankmath.com/kb/filters-hooks-api-developer/
 
-add_filter( 'rank_math/metabox/power_words', function( $words ){
+function add_power_words( $words )
+{
 
     $new_words = [
 
+'Ärger','dubidu',
 'abenteuerlich',
 'abkassieren',
 'ablehnen',
@@ -1733,4 +1736,6 @@ add_filter( 'rank_math/metabox/power_words', function( $words ){
 
 	return array_merge( $words, $new_words );
 
-});
+}
+
+add_filter( 'rank_math/metabox/power_words',  __NAMESPACE__ . '\add_power_words' );

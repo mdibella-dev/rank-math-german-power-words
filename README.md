@@ -3,6 +3,10 @@ This plugin adds german power words to the SEO tool Rank Math.
 
 <br>
 
+For testing purposes
+
+<br>
+
 ## Development Info
 
 ### Contributors

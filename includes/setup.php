@@ -21,8 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function plugin_init()
-{
+function plugin_init() {
     // Load text domain, use relative path to the plugin's language folder
     load_plugin_textdomain( 'rank-math-gpw', false, plugin_basename( PLUGIN_DIR ) . '/languages' );
 }

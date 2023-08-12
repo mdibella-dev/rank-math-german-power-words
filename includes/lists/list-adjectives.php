@@ -373,5 +373,5 @@ return [
     'wuerdevoll',
     'zauberhaft',
     'zusammen',
-    'zuverlaessig',
+    'zuverlaessig'
 ];

@@ -19,9 +19,10 @@ defined( 'ABSPATH' ) or exit;
 
 function add_power_words( $words )
 {
-    $nouns = include( 'lists\list-nouns.php' );
+    $nouns      = include( 'lists\list-nouns.php' );
+    $adjectives = include( 'lists\list-adjectives.php' );
 
-	return array_merge( $words, $nouns );
+	return array_merge( $words, $nouns, $adjectives );
 
 }
 

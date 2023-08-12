@@ -17,13 +17,17 @@ defined( 'ABSPATH' ) or exit;
 
 // https://rankmath.com/kb/filters-hooks-api-developer/
 
-function add_power_words( $words )
-{
-    $nouns      = include( 'lists\list-nouns.php' );
-    $adjectives = include( 'lists\list-adjectives.php' );
+function add_power_words( $words ) {
+    try {
 
-	return array_merge( $words, $nouns, $adjectives );
+        $nouns      = include( PLUGIN_DIR . 'includes/lists/list-nouns.php' );
+        $adjectives = include( PLUGIN_DIR . 'includes/lists/list-adjectives.php' );
 
+        return array_merge( $words, $nouns, $adjectives );
+
+    } catch( Exception ) {
+        return $words;
+    }
 }
 
 add_filter( 'rank_math/metabox/power_words',  __NAMESPACE__ . '\add_power_words' );

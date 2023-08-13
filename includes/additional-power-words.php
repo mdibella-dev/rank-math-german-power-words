@@ -15,19 +15,29 @@ defined( 'ABSPATH' ) or exit;
 
 
 
-// https://rankmath.com/kb/filters-hooks-api-developer/
+/**
+ * The init function for the plugin.
+ *
+ * @since 1.0.0
+ *
+ * @see   https://rankmath.com/kb/filters-hooks-api-developer/
+ *
+ * @param array $power_words The list of power words originally provided by Rank Math
+ *
+ * @return array The modified (in case of error: unmodified) list of power words
+ */
 
-function add_power_words( $words ) {
+function add_power_words( $power_words ) {
     try {
 
         $nouns      = include( PLUGIN_DIR . 'includes/lists/list-nouns.php' );
         $verbs      = include( PLUGIN_DIR . 'includes/lists/list-verbs.php' );
         $adjectives = include( PLUGIN_DIR . 'includes/lists/list-adjectives.php' );
 
-        return array_merge( $words, $nouns, $adjectives );
+        return array_merge( $power_words, $nouns, $verbs, $adjectives );
 
     } catch( Exception ) {
-        return $words;
+        return $power_words;
     }
 }
 

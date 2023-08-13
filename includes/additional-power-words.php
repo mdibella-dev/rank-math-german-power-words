@@ -21,6 +21,7 @@ function add_power_words( $words ) {
     try {
 
         $nouns      = include( PLUGIN_DIR . 'includes/lists/list-nouns.php' );
+        $verbs      = include( PLUGIN_DIR . 'includes/lists/list-verbs.php' );
         $adjectives = include( PLUGIN_DIR . 'includes/lists/list-adjectives.php' );
 
         return array_merge( $words, $nouns, $adjectives );

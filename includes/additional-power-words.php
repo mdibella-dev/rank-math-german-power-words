@@ -30,9 +30,9 @@ defined( 'ABSPATH' ) or exit;
 function add_power_words( $power_words ) {
     try {
 
-        $nouns      = include( PLUGIN_DIR . 'includes/lists/list-nouns.php' );
-        $verbs      = include( PLUGIN_DIR . 'includes/lists/list-verbs.php' );
-        $adjectives = include( PLUGIN_DIR . 'includes/lists/list-adjectives.php' );
+        $nouns      = include PLUGIN_DIR . 'includes/lists/list-nouns.php';
+        $verbs      = include PLUGIN_DIR . 'includes/lists/list-verbs.php';
+        $adjectives = include PLUGIN_DIR . 'includes/lists/list-adjectives.php';
 
         return array_merge( $power_words, $nouns, $verbs, $adjectives );
 

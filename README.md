@@ -17,11 +17,11 @@ For testing purposes
 
 ### Requires at least
 
-* WordPress 6
+- WordPress 6
 
 ### Tested up to
 
-* WordPress 6.2.2
+- WordPress 6.2.2
 
 <br>
 

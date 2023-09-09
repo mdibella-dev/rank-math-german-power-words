@@ -10,10 +10,10 @@ For testing purposes
 ## Development Info
 
 ### Contributors
-[Marco Di Bella ](https://github.com/mdibella-dev)
+[Marco Di Bella](https://github.com/mdibella-dev)
 
 ### Tags
-...
+wordpress, wordpress-plugin, seo, rank-math, power-words, german
 
 ### Requires at least
 

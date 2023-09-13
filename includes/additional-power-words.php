@@ -36,7 +36,7 @@ function add_power_words( $power_words ) {
 
         return array_merge( $power_words, $nouns, $verbs, $adjectives );
 
-    } catch( Exception ) {
+    } catch ( Exception ) {
         return $power_words;
     }
 }

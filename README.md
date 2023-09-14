@@ -1,6 +1,15 @@
 # Rank Math - German Power Words
 This plugin adds german power words to the SEO tool Rank Math.
 
+Source(s):
+- [1.000+ Power-Wörter, die deine Texte und Überschriften sofort verbessern](https://www.blogmojo.de/power-woerter/).
+
+<br>
+
+## Usage
+
+Simply install the plugin in your WordPress plugin folder and then activate it.
+
 <br>
 
 ## Development Info

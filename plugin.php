@@ -38,5 +38,7 @@ define( __NAMESPACE__ . '\RANK_MATH_PLUGIN', 'seo-by-rank-math/rank-math.php' );
 
 /** Include files */
 
+require_once PLUGIN_DIR . 'vendor/autoload.php';    // Composer related files
+
 require_once PLUGIN_DIR . 'includes/setup.php';
 require_once PLUGIN_DIR . 'includes/additional-power-words.php';

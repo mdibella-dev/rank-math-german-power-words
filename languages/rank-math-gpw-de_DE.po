@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rank Math &mdash; German Power Words\n"
+"POT-Creation-Date: 2023-09-14 14:55+0200\n"
+"PO-Revision-Date: 2023-09-14 14:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/activation.php:94
+#, php-format
+msgid ""
+"Rank Math SEO has been disabled. As a result, the %1$s plugin was also "
+"disabled."
+msgstr ""
+"Rank Math SEO wurde deaktiviert. Infolgedessen wurde auch das Plugin "
+"%1$s deaktiviert."
+
+#: includes/activation.php:95 includes/activation.php:123
+msgid "Rank Math - German Power Words"
+msgstr "Rank Math - Deutsche Power Words"
+
+#: includes/activation.php:122
+#, php-format
+msgid ""
+"The %1$s plugin cannot be activated because the required Rank Math Seo "
+"plugin has not been activated."
+msgstr ""
+"Das Plugin %1$s kann nicht aktiviert werden, da das erforderliche Rank "
+"Math Seo-Plugin nicht aktiviert wurde."
+
+#. Plugin Name of the plugin/theme
+msgid "Rank Math &mdash; German Power Words"
+msgstr "Rank Math &mdash; Deutsche Power Words"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mdibella-dev/rank-math-german-power-words"
+msgstr "https://github.com/mdibella-dev/rank-math-german-power-words"
+
+#. Description of the plugin/theme
+msgid "This plugin adds german power words to the SEO tool Rank Math."
+msgstr ""
+"Dieses Plugin fügt dem SEO-Tool Rank Math deutsche Power Words "
+"(„kraftvolle Ausdrücke“) hinzu."
+
+#. Author of the plugin/theme
+msgid "Marco Di Bella"
+msgstr "Marco Di Bella"
+
+#. Author URI of the plugin/theme
+msgid "https://www.marcodibella.de"
+msgstr "https://www.marcodibella.de"

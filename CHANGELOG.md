@@ -4,9 +4,7 @@ _New / Improve / Bugfix_
 
 <br>
 
-### RELEASE VERSION
-Released: RELEASE DATE (dd-mm-yyyy)
+### 1.0.0
+Released: 14-09-2023
 
-- New:
-- Improve:
-- Bugfix
+- New: Initial release

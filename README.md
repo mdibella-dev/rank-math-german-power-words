@@ -23,6 +23,7 @@ wordpress, wordpress-plugin, seo, rank-math, power-words, german
 ### Requires at least
 
 - WordPress 6
+- [Rank Math SEO](https://rankmath.com/de/)
 
 ### Tested up to
 

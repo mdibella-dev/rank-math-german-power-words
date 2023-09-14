@@ -21,7 +21,7 @@ wordpress, wordpress-plugin, seo, rank-math, power-words, german
 
 ### Tested up to
 
-- WordPress 6.2.2
+- WordPress 6.3
 
 <br>
 

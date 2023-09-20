@@ -35,6 +35,7 @@ wordpress, wordpress-plugin, seo, rank-math, power-words, german
 
 ### Latest changes to the main branch
 
+None
 
 ### Previous changes
 
